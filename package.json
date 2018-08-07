@@ -2,13 +2,14 @@
 "name": "elitebt",
   "version": "0.0.1",
   "description": "A simple Node app built on Express, instantly up and running.",
-  "main": "server.js",
+  "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
   },
   "dependencies": {
     "express": "^4.16.3",
     "discord.js": "^11.3.2",
+    "moment": "^2.22.2",
     "fs": "^0.0.2",
     "canvas": "^1.6.11",
     "jimp": "^0.3.2"
